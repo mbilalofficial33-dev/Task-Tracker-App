@@ -1,0 +1,141 @@
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.csproj.AssemblyReference.cache
+D:\BackEnd\Test\Test\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.GeneratedMSBuildEditorConfig.editorconfig
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.AssemblyInfoInputs.cache
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.AssemblyInfo.cs
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.csproj.CoreCompileInputs.cache
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.MvcApplicationPartsAssemblyInfo.cs
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.MvcApplicationPartsAssemblyInfo.cache
+D:\BackEnd\Test\Test\bin\Debug\net8.0\appsettings.Development.json
+D:\BackEnd\Test\Test\bin\Debug\net8.0\appsettings.json
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.staticwebassets.endpoints.json
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.exe
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.deps.json
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.runtimeconfig.json
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Task Tracker App.pdb
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Azure.Core.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Azure.Identity.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\BCrypt.Net-Next.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Humanizer.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.CodeDom.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Drawing.Common.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Memory.Data.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Runtime.Caching.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Security.Permissions.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\System.Windows.Extensions.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\BackEnd\Test\Test\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\BackEnd\Test\Test\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\scopedcss\bundle\Task Tracker App.styles.css
+D:\BackEnd\Test\Test\obj\Debug\net8.0\staticwebassets.build.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\BackEnd\Test\Test\obj\Debug\net8.0\staticwebassets.development.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tra.FCC188C9.Up2Date
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.dll
+D:\BackEnd\Test\Test\obj\Debug\net8.0\refint\Task Tracker App.dll
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.pdb
+D:\BackEnd\Test\Test\obj\Debug\net8.0\Task Tracker App.genruntimeconfig.cache
+D:\BackEnd\Test\Test\obj\Debug\net8.0\ref\Task Tracker App.dll
+D:\BackEnd\Test\Test\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
