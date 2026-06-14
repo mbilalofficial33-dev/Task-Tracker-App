@@ -1,0 +1,120 @@
+<div class="dashboard">
+
+  <header>
+    <h1>Task Tracker</h1>
+    <div class="user-info">
+      <span class="welcome-text">Welcome, {{ user?.username }}!</span>
+      <button class="btn-logout" (click)="logout()">Logout</button>
+    </div>
+  </header>
+
+  <!-- Notifications -->
+  <div class="notifications">
+    <button class="notification-btn"
+            (click)="toggleNotifications()"
+            [class.active]="showNotifications">
+      🔔 {{ unreadCount }}
+    </button>
+
+    <div class="notification-panel" *ngIf="showNotifications">
+      <div *ngIf="notificationsLoading">Loading notifications...</div>
+      <div *ngIf="notificationsError" class="empty-state">{{ notificationsError }}</div>
+      <div *ngFor="let notification of notifications"
+           class="notification-item"
+           [class.unread]="!notification.isRead"
+           (click)="markAsRead(notification.id)">
+        {{ notification.message }}
+        <div *ngIf="notification.taskId">Task #{{ notification.taskId }}</div>
+        <small>{{ notification.createdAt | date:'short' }}</small>
+      </div>
+      <div *ngIf="!notificationsLoading && notifications.length === 0" class="empty-state">
+        No notifications yet.
+      </div>
+    </div>
+  </div>
+
+  <!-- Create Task -->
+  <div class="create-task-section">
+    <h2>Create New Task</h2>
+
+    <form [formGroup]="createTaskForm"
+          (ngSubmit)="createTask()"
+          class="task-form">
+
+      <input formControlName="title" placeholder="Task Title" required>
+      <textarea formControlName="description" placeholder="Description"></textarea>
+      <input type="date" formControlName="dueDate">
+
+      <select formControlName="assignedToId" required>
+        <option value="">Select User</option>
+        <option *ngFor="let user of users" [value]="user.id">
+          {{ user.username }}
+        </option>
+      </select>
+
+      <button type="submit" [disabled]="createTaskLoading">
+        {{ createTaskLoading ? 'Creating...' : 'Create Task' }}
+      </button>
+      <div *ngIf="createTaskError" class="empty-state">{{ createTaskError }}</div>
+    </form>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button (click)="setTab('assigned')" [class.active]="activeTab === 'assigned'">
+      Assigned to Me
+    </button>
+
+    <button (click)="setTab('created')" [class.active]="activeTab === 'created'">
+      Assigned by Me
+    </button>
+  </div>
+
+  <!-- Loading -->
+  <div *ngIf="loading" class="loading">Loading...</div>
+  <div *ngIf="!loading && tasksError" class="empty-state">{{ tasksError }}</div>
+  <div *ngIf="statusUpdateError" class="empty-state">{{ statusUpdateError }}</div>
+
+  <!-- Tasks -->
+  <div *ngIf="!loading && !tasksError" class="tasks-grid">
+
+    <div *ngFor="let task of currentTasks"
+         class="task-card"
+         [ngClass]="getTaskStatusClass(task.status)">
+
+      <h3>{{ task.title }}</h3>
+      <span class="status-badge">{{ task.status }}</span>
+
+      <p *ngIf="task.description">{{ task.description }}</p>
+
+      <div class="task-meta">
+        <span>By: {{ task.assignedByName }}</span>
+        <span>To: {{ task.assignedToName }}</span>
+      </div>
+
+      <div class="task-actions">
+        <button *ngIf="canStartTask(task)"
+        (click)="updateTaskStatus(task.id, TaskStatus.InProgress)">
+          Start
+        </button>
+
+        <button *ngIf="canCompleteTask(task)"
+                (click)="updateTaskStatus(task.id, TaskStatus.Completed)">
+          Complete
+        </button>
+
+        <button *ngIf="canApproveTask(task)"
+        (click)="updateTaskStatus(task.id, TaskStatus.Approved)">
+          Approve
+        </button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div *ngIf="currentTasks.length === 0 && !loading" class="empty-state">
+    No tasks found.
+  </div>
+
+</div>

@@ -1,0 +1,260 @@
+.dashboard {
+  max-width: 1200px;
+  margin: auto;
+  padding: 28px 20px 36px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.welcome-text {
+  font-weight: 600;
+}
+
+.btn-logout {
+  border: none;
+  border-radius: 8px;
+  background: #ef4444;
+  color: #fff;
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.notifications {
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 16px;
+}
+
+.notification-btn {
+  border: none;
+  border-radius: 10px;
+  background: #111827;
+  color: #fff;
+  padding: 10px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.notification-btn.active {
+  background: #374151;
+}
+
+.notification-panel {
+  position: absolute;
+  top: calc(100% + 8px);
+  right: 0;
+  width: min(390px, 94vw);
+  background: #fff;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 14px 30px rgba(2, 6, 23, 0.12);
+  padding: 8px;
+  z-index: 20;
+  max-height: 320px;
+  overflow: auto;
+}
+
+.notification-item {
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 6px;
+  background: #f8fafc;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.notification-item.unread {
+  background: #eef2ff;
+  border: 1px solid #c7d2fe;
+}
+
+.notification-item small {
+  display: block;
+  margin-top: 6px;
+  color: #6b7280;
+}
+
+.task-form {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.create-task-section {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 18px;
+  margin-bottom: 20px;
+}
+
+.create-task-section h2 {
+  margin: 0 0 14px;
+  font-size: 22px;
+}
+
+input,
+textarea,
+select,
+button {
+  font-family: inherit;
+}
+
+.task-form input,
+.task-form textarea,
+.task-form select {
+  width: 100%;
+  border: 1px solid #d1d5db;
+  border-radius: 10px;
+  padding: 11px 12px;
+  font-size: 14px;
+  background: #fff;
+}
+
+.task-form textarea {
+  min-height: 90px;
+  resize: vertical;
+}
+
+.task-form button {
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  padding: 11px 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.task-form button:disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin: 18px 0 16px;
+}
+
+.tabs button {
+  border: 1px solid #d1d5db;
+  background: #fff;
+  color: #374151;
+  border-radius: 999px;
+  padding: 9px 14px;
+  cursor: pointer;
+}
+
+.tabs button.active {
+  background: #1f2937;
+  border-color: #1f2937;
+  color: #fff;
+}
+
+.tasks-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 16px;
+}
+
+.task-card {
+  border: 1px solid #e5e7eb;
+  padding: 16px;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(15, 23, 42, 0.05);
+}
+
+.task-card h3 {
+  margin: 0 0 8px;
+}
+
+.status-badge {
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 700;
+  background: #e5e7eb;
+  color: #1f2937;
+}
+
+.task-card.Assigned .status-badge {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
+
+.task-card.InProgress .status-badge {
+  background: #ede9fe;
+  color: #6d28d9;
+}
+
+.task-card.Completed .status-badge {
+  background: #fef3c7;
+  color: #b45309;
+}
+
+.task-card.Approved .status-badge {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.task-meta {
+  display: grid;
+  gap: 6px;
+  font-size: 13px;
+  color: #4b5563;
+}
+
+.task-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.task-actions button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #111827;
+  color: #fff;
+}
+
+.task-actions button:nth-child(2) {
+  background: #b45309;
+}
+
+.task-actions button:nth-child(3) {
+  background: #15803d;
+}
+
+.loading, .empty-state {
+  text-align: center;
+  padding: 14px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  margin-bottom: 10px;
+}
